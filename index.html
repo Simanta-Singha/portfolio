@@ -3,274 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simanta | Graphic Designer</title>
+<title>Simanta Singha | Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-body{
-background:#0A0A0A;
-color:#fff;
-}
-
-.container{
-width:90%;
-max-width:1200px;
-margin:auto;
-}
-
-header{
-height:100vh;
-display:flex;
-align-items:center;
-}
-
-.hero{
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:50px;
-}
-
-.hero-text h1{
-font-size:60px;
-line-height:1.1;
-}
-
-.hero-text span{
-color:#00D4FF;
-}
-
-.hero-text p{
-margin:20px 0;
-font-size:18px;
-color:#ccc;
-}
-
-.btn{
-display:inline-block;
-padding:14px 28px;
-background:#00D4FF;
-color:#000;
-font-weight:600;
-text-decoration:none;
-border-radius:8px;
-margin-right:10px;
-}
-
-.hero-img img{
-width:350px;
-border-radius:20px;
-}
-
-section{
-padding:100px 0;
-}
-
-.section-title{
-font-size:40px;
-margin-bottom:40px;
-text-align:center;
-}
-
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#151515;
-padding:25px;
-border-radius:15px;
-}
-
-.card h3{
-color:#00D4FF;
-margin-bottom:10px;
-}
-
-.portfolio{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
-.project img{
-width:100%;
-border-radius:12px;
-}
-
-.contact{
-text-align:center;
-}
-
-footer{
-padding:30px;
-text-align:center;
-border-top:1px solid #222;
-color:#888;
-}
-
-@media(max-width:768px){
-
-.hero{
-flex-direction:column-reverse;
-text-align:center;
-}
-
-.hero-text h1{
-font-size:40px;
-}
-
-.hero-img img{
-width:280px;
-}
-
-}
-</style>
 </head>
-
 <body>
 
 <header>
-<div class="container hero">
+<div class="logo">Simanta.</div>
 
-<div class="hero-text">
-<h1>Hello, I'm <span>Simanta</span></h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Portfolio</a>
+<a href="#">Skills</a>
+<a href="#">Contact</a>
+</nav>
+
+<a href="#" class="talk-btn">Let's Talk</a>
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<p>Hello, I'm</p>
+
+<h1>
+Simanta <span>Singha</span>
+</h1>
 
 <h2>Graphic Designer & Brand Identity Specialist</h2>
 
-<p>
-I create modern logos, branding, print materials,
-social media designs and visual identities that help
-businesses stand out.
+<p class="desc">
+I create modern logos, branding, print materials and
+social media designs that help businesses stand out.
 </p>
 
-<a href="#portfolio" class="btn">View Portfolio</a>
-<a href="#contact" class="btn">Hire Me</a>
-
-</div>
-
-<div class="hero-img">
-<img src="https://via.placeholder.com/350x450" alt="">
-</div>
-
-</div>
-</header>
-
-<section id="about">
-<div class="container">
-
-<h2 class="section-title">About Me</h2>
-
-<p style="text-align:center;max-width:800px;margin:auto;">
-I'm a passionate Graphic Designer specializing in
-logo design, branding, business cards, banners,
-social media creatives and print design.
-I help businesses create strong visual identities.
-</p>
-
-</div>
-</section>
-
-<section>
-<div class="container">
-
-<h2 class="section-title">Services</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Logo Design</h3>
-<p>Professional and memorable logo designs.</p>
-</div>
-
-<div class="card">
-<h3>Brand Identity</h3>
-<p>Complete branding solutions for businesses.</p>
-</div>
-
-<div class="card">
-<h3>Print Design</h3>
-<p>Business cards, flyers, brochures and more.</p>
-</div>
-
-<div class="card">
-<h3>Social Media Design</h3>
-<p>Eye-catching social media creatives.</p>
+<div class="buttons">
+<a href="#" class="btn1">View Portfolio</a>
+<a href="#" class="btn2">Hire Me</a>
 </div>
 
 </div>
 
-</div>
-</section>
-
-<section id="portfolio">
-<div class="container">
-
-<h2 class="section-title">Portfolio</h2>
-
-<div class="portfolio">
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-<div class="project">
-<img src="https://via.placeholder.com/600x400">
-</div>
-
-</div>
-
-</div>
-</section>
-
-<section id="contact">
-
-<div class="container contact">
-
-<h2 class="section-title">Contact Me</h2>
-
-<p>Email: your@email.com</p>
-<p>WhatsApp: +8801XXXXXXXXX</p>
-
-<br>
-
-<a href="#">Behance</a> |
-<a href="#">Dribbble</a> |
-<a href="#">Fiverr</a>
-
+<div class="hero-image">
+<img src="profile.png">
 </div>
 
 </section>
-
-<footer>
-© 2026 Simanta. All Rights Reserved.
-</footer>
 
 </body>
 </html>
